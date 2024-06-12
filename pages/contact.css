@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  background: #ffbf27;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: inherit;
+}
+
+h1 {
+  font-size: 4.926vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2.941vw;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.765vw;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-size: 1.471vw;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 1.324vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+span {
+  font-size: 1.029vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.icon {
+  display: none;
+}
+
+.headicon {
+  width: 156px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.option span {
+  padding: 19px;
+  border-radius: 50%;
+}
+
+label {
+  color: #b81a19;
+}
+
+.page-width {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 200px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  /* background-color: #04AA6D; */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.conbtn {
+  background: #05052d;
+  color: white;
+}
+
+@media (max-width:768px) {
+  .page-width {
+    padding: 0 19px;
+    max-width: unset;
+  }
+
+
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 69px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .option {
+    z-index: 3;
+  }
+
+  .headicon {
+    width: 103px;
+  }
+
+  .option {
+    display: none;
+    top: 69px;
+    left: 0;
+
+    flex-direction: column;
+    padding: 19px;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+  }
+
+  .option span {
+    color: #b81a19;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .option a {
+    width: 100%;
+  }
+
+  .fa-navicon:before,
+  .fa-reorder:before,
+  .fa-bars:before {
+    background-color: #ffbf27;
+    color: #fff;
+  }
+
+  .icon {
+    display: block
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin-bottom: 9px;
+  }
+
+  h4 {
+    font-size: 11px;
+  }
+
+  p {
+    font-size: 9px;
+  }
+
+  span {
+    font-size: 6px;
+  }
+
+  .container {
+    padding: 0;
+    margin-top: 23px;
+  }
+}
