@@ -400,6 +400,11 @@ a {
 
 @media (max-width:768px) {
 
+    
+.sharda {
+    background-image: url('/Assets/Darsha_homepage_Mobile\ bg.png');
+}
+
     #overlay {
         position: fixed;
         display: none;
@@ -488,6 +493,7 @@ a {
 
     .ourservice {
         padding: 0 19px;
+        margin-top: 179px;
     }
 
     .servicebtn span::after {
@@ -508,6 +514,7 @@ a {
 
     .herosection{
         padding: 0 13px;
+        margin-top: 70px;
     }
 
     .herobtn {
@@ -555,6 +562,7 @@ a {
     .pnghead h4 {
         line-height: normal;
         margin-bottom: 3px;
+        font-size: 9px;
     }
 
     .detailpng {
@@ -565,12 +573,15 @@ a {
         grid-template-columns: repeat(2, 1fr);
         /* display: flex; */
         flex-wrap: wrap;
-        gap: 26px;
+        gap: 19px;
+        position: relative;
+        left: 36px;
+        place-items: unset;
     }
 
-    .sharda{
+    /* .sharda{
         background: #ffbf27;
-    }
+    } */
 
     .servicetxt span {
         font-size: 12px;
