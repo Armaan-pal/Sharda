@@ -380,6 +380,22 @@ a {
     display: flex;
     gap: 69px;
 }
+
+.option a{
+    width: 116px;
+    height: 113px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+.option a:hover{
+    background-color: #b81a19;
+}
 /* mobile */
 
 @media (max-width:768px) {
