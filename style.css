@@ -301,7 +301,7 @@ a {
 
 .hpfswipe{
     width: 31.103vw;
-    margin-left: 35.735vw;
+    margin-left: 36.735vw;
     height: 400px;
     padding-top: 12.279vw;
 }
@@ -691,6 +691,10 @@ a {
         height: 400px;
         padding-top: 15.279vw;
     }
+
+    .upmargin {
+        margin-top: 1.338vw;
+      }
 
     .seprator{
         padding: 63px 0;
