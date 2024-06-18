@@ -192,6 +192,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     position: relative;
     left: 93px;
+    top: 30px;
 }
 
 
