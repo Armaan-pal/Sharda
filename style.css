@@ -28,7 +28,7 @@ img {
 }
 
 h1 {
-    font-size: 4.926vw;
+    font-size: 4.26vw;
     color: #fff;
     font-family: "Montserrat", sans-serif;
 }
@@ -190,8 +190,10 @@ a {
 .imghead {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    position: relative;
+    left: 93px;
 }
+
 
 .servicebtn span {
     color: #000;
