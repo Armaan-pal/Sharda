@@ -112,8 +112,9 @@ a {
 }
 
 .option span {
-    padding: 19px;
+    padding: 6px;
     border-radius: 50%;
+    font-size: 1.3vw;
 }
 
 /* .option span:hover{
@@ -139,7 +140,7 @@ a {
 .herotitle h3 {
     font-weight: normal;
     text-align: center;
-    width: 53.162vw;
+    width: 43.162vw;
     margin-bottom: 36px;
 }
 
@@ -192,7 +193,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     position: relative;
     left: 93px;
-    top: 30px;
+    top: 23px;
 }
 
 
