@@ -688,8 +688,8 @@ a {
     .hpfswipe {
         width: 31.103vw;
         margin-left: 35.735vw;
-        height: 400px;
-        padding-top: 15.279vw;
+        height: 549px;
+        padding-top: 19.279vw;
     }
 
     .upmargin {
@@ -707,9 +707,30 @@ a {
         margin-bottom: 5.897vw;
     }
 
+    .hpfswipe {
+        width: 31.103vw;
+        margin-left: 35.735vw;
+        height: 679px;
+        padding-top: 28.279vw;
+    }
+
+    .upmargin {
+        margin-top: 1.338vw;
+      }
+
     .imghead {
         padding: 0 !important;
     }
+}
+
+
+@media screen and (min-width: 1750px) {
+
+    .hpfswipe{
+        height: 793px;
+        padding-top: 31.279vw;
+    }
+
 }
 
 @media screen and (min-width: 1850px) and (max-width: 2049px) {
@@ -718,9 +739,29 @@ a {
         margin-bottom: 6.897vw;
     }
 
+    
+    .hpfswipe{
+        height: 846px;
+        padding-top: 31.279vw;
+    }
+
+    .upmargin {
+        margin-top: 3.338vw;
+      }
+
+
     .imghead {
         padding: 0 !important;
     }
+
+
+@media screen and (min-width: 1750px) {
+
+    .hpfswipe{
+        height: 923px;
+        padding-top: 31.279vw;
+    }
+}
 }
 
 
