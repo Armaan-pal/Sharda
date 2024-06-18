@@ -198,6 +198,7 @@ a {
 .servicebtn span {
     color: #000;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .servicebtn span::after {
