@@ -115,12 +115,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    /* gap: 12px; */
 }
 
 .option span {
-    padding: 6px;
+    /* padding: 6px; */
     border-radius: 50%;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -139,6 +140,7 @@ a {
 .herotitle {
     display: flex;
     justify-content: center;
+    padding-left: 73px;
     flex-direction: column;
     align-items: center;
     line-height: 38px;
@@ -263,12 +265,17 @@ a {
 .seprator {
     background-image: url('/Assets/separator\ 2.png');
     display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5vw;
     padding: 39px 0;
 }
+
 
 .seprator h2 {
     width: 53.824vw;
@@ -315,7 +322,7 @@ a {
     width: 31.103vw;
     margin-left: 36.735vw;
     height: 400px;
-    padding-top: 12.279vw;
+    padding-top: 10.279vw;
 }
 
 .servimgb {
@@ -394,8 +401,8 @@ a {
 }
 
 .option a{
-    width: 116px;
-    height: 113px;
+    width: 106px;
+    height: 106px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -403,15 +410,116 @@ a {
     border-radius: 50%;
 }
 
+#overlay{
+    display: none;
+}
+
 
 
 .option a:hover{
     background-color: #b81a19;
 }
+
+/* section 5 */
+
+
+
+  /* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  
+  }
+  
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  .tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+  }
+  
+  .tag + .tag {
+    margin-left: .5em;
+  }
+  
+  .tag-blue {
+    background: #56CCF2;
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    color: #fafafa;
+  }
+  
+  .tag-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
+  }
+  
+  .tag-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+  }
+  
+  .card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  .user {
+    display: flex;
+    gap: .5rem;
+  }
+  
+  .user__image {
+    border-radius: 50%;
+  }
+  
+  .user__info > small {
+    color: #666;
+  } */
+
+
+
 /* mobile */
 
 @media (max-width:768px) {
 
+    #overlay{
+        display: block;
+    }
     
 .sharda {
     background-image: url('/Assets/Darsha_homepage_Mobile\ bg.png');
@@ -699,7 +807,7 @@ a {
 
     .hpfswipe {
         width: 31.103vw;
-        margin-left: 35.735vw;
+        margin-left: 38.735vw;
         height: 549px;
         padding-top: 19.279vw;
     }
@@ -713,6 +821,12 @@ a {
     }
 }
 
+@media screen and (min-width: 1550px) and (max-width: 1649px) {
+    .hpfswipe {
+        padding-top: 17.279vw !important;
+    }
+}
+
 @media screen and (min-width: 1650px) and (max-width: 1849px) {
     .servicetxt {
         margin-top: 10.8vw;
@@ -721,9 +835,9 @@ a {
 
     .hpfswipe {
         width: 31.103vw;
-        margin-left: 35.735vw;
+        margin-left: 38.735vw;
         height: 679px;
-        padding-top: 28.279vw;
+        padding-top: 22.279vw;
     }
 
     .upmargin {
@@ -740,7 +854,7 @@ a {
 
     .hpfswipe{
         height: 793px;
-        padding-top: 31.279vw;
+        padding-top: 27.279vw;
     }
 
 }
@@ -755,6 +869,7 @@ a {
     .hpfswipe{
         height: 846px;
         padding-top: 31.279vw;
+        margin-left: 39.735vw;
     }
 
     .upmargin {
