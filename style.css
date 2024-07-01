@@ -92,7 +92,17 @@ a {
 }
 
 .sharda {
-    background-image: url('/Assets/Darsha_homepage_v4\ GÇô\ 1_assets.png');
+    background-image: url('/Assets/Darsha_homepage_v41_assets\ Copy.png');
+    /* height: 500vh; */
+    width: 100%;
+    /* background-position: center;*/
+    background-repeat: no-repeat;
+    padding-bottom: 5vw;
+    background-size: cover;
+}
+
+.footcar{
+    background-image: url('/Assets/Darsha_homepage_v41_assetsCop.png');
     /* height: 500vh; */
     width: 100%;
     /* background-position: center;*/
@@ -132,7 +142,7 @@ a {
 
 .herosection h1 {
     text-align: center;
-    padding: 8.353vw 18.603vw;
+    padding: 5.353vw 18.603vw;
     padding-bottom: 23px;
     line-height: 5.074vw;
 }
@@ -167,8 +177,8 @@ a {
 }
 
 .servicetxt {
-    margin-top: 5.882vw;
-    margin-bottom: 3.897vw;
+    margin-top: 7.882vw;
+    margin-bottom: 1.897vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,7 +282,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
     padding: 39px 0;
 }
 
@@ -321,8 +331,8 @@ a {
 .hpfswipe{
     width: 31.103vw;
     margin-left: 36.735vw;
-    height: 400px;
-    padding-top: 10.279vw;
+    height: 493px;
+    padding-top: 16.279vw;
 }
 
 .servimgb {
@@ -424,7 +434,7 @@ a {
 
 
 
-  /* .container {
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -445,9 +455,8 @@ a {
     width: clamp(20rem, calc(20rem + 2vw), 22rem);
     overflow: hidden;
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-    border-radius: 1em;
-    background: #ECE9E6;
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* border-radius: 1em; */
+    background-color: #05052d;
   
   }
   
@@ -509,7 +518,7 @@ a {
   
   .user__info > small {
     color: #666;
-  } */
+  }
 
 
 
@@ -522,7 +531,18 @@ a {
     }
     
 .sharda {
-    background-image: url('/Assets/Darsha_homepage_Mobile\ bg.png');
+    background-image: url('/Assets//Darsha_homepage_Mobile\ bg\ -\ Copy.png');
+    padding-bottom: 53px;
+}
+
+.footcar{
+    background-image: url('/Assets/Darsha_homepage_Mobile\ bg\ -\ Copy\ \(2\).png');
+    padding-top: 283px;
+}
+
+.hpfswipe{
+    position: relative;
+    bottom: 99px;
 }
 
     #overlay {
@@ -571,10 +591,13 @@ a {
     }
 
     .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
-        background-color: #ffbf27;
+        background-color: transparent;
         color: #fff;
     }
 
+    .fa{
+        font-size: 23px;
+    }
     .icon{
         display:block
     }
@@ -604,6 +627,10 @@ a {
         font-size: 6px;
     }
 
+    .herotitle {
+        padding-left: unset;
+    }
+
     .detailimgtxt{
         display: flex;
         justify-content: center;
@@ -614,7 +641,7 @@ a {
 
     .ourservice {
         padding: 0 19px;
-        margin-top: 179px;
+        margin-top: 193px;
     }
 
     .servicebtn span::after {
@@ -623,7 +650,7 @@ a {
 
     .seprator{
         padding: 23px 0;
-        margin-top: 53px;
+        /* margin-top: 53px; */
     }
 
     .seprator h2 {
@@ -646,7 +673,7 @@ a {
     .herosection h1 {
         text-align: center;
         padding: 0;
-        padding-bottom: 13px;
+        padding-bottom: 16px;
         line-height: normal;
     }
 
@@ -658,7 +685,7 @@ a {
         text-align: center;
         width: auto;
         line-height: normal;
-        margin-bottom: 19px;
+        margin-bottom: 23px;
         font-size: 12px;
     }
 
@@ -677,7 +704,7 @@ a {
 
 
     .redbg {
-        margin-top: 36px;
+        margin-top: 79px;
     }
 
     .pnghead h4 {
@@ -695,9 +722,12 @@ a {
         /* display: flex; */
         flex-wrap: wrap;
         gap: 19px;
+        /* column-gap: 0; */
         position: relative;
-        left: 36px;
-        place-items: unset;
+        left: 0;
+        place-items: flex-start;
+        padding-top: 68px;
+        padding-left: 58px;
     }
 
     /* .sharda{
@@ -807,9 +837,9 @@ a {
 
     .hpfswipe {
         width: 31.103vw;
-        margin-left: 38.735vw;
+        margin-left: 36.735vw;
         height: 549px;
-        padding-top: 19.279vw;
+        padding-top: 21.279vw;
     }
 
     .upmargin {
@@ -823,7 +853,7 @@ a {
 
 @media screen and (min-width: 1550px) and (max-width: 1649px) {
     .hpfswipe {
-        padding-top: 17.279vw !important;
+        padding-top: 20.279vw !important;
     }
 }
 
@@ -835,9 +865,9 @@ a {
 
     .hpfswipe {
         width: 31.103vw;
-        margin-left: 38.735vw;
-        height: 679px;
-        padding-top: 22.279vw;
+        margin-left: 36.735vw;
+        height: 576px;
+        padding-top: 20.279vw;
     }
 
     .upmargin {
@@ -853,8 +883,8 @@ a {
 @media screen and (min-width: 1750px) {
 
     .hpfswipe{
-        height: 793px;
-        padding-top: 27.279vw;
+        height: 606px !important;
+        padding-top: 21.279vw !important;
     }
 
 }
@@ -866,10 +896,10 @@ a {
     }
 
     
-    .hpfswipe{
-        height: 846px;
-        padding-top: 31.279vw;
-        margin-left: 39.735vw;
+    .hpfswipe {
+        height: 639px !important;
+        padding-top: 19.279vw !important;
+        margin-left: 36.735vw !important;
     }
 
     .upmargin {
