@@ -31,6 +31,7 @@ h1 {
     font-size: 4.26vw;
     color: #fff;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 3px 3px #05052d;
 }
 
 h2 {
@@ -39,32 +40,37 @@ h2 {
     color: #fff;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 3px 3px #05052d;
 }
 
 h3 {
     font-size: 1.765vw;
     margin-bottom: 20px;
+    text-shadow: 1px 3px 3px #05052d;
     color: #fff;
     font-family: "Montserrat", sans-serif;
 }
 
-h4 {
+h4, label {
     font-size: 1.471vw;
     margin-bottom: 20px;
     color: #fff;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 3px 3px #05052d;
 }
 
 p {
     font-size: 1.324vw;
     color: #fff;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 3px 3px #05052d;
     text-align: center;
 }
 
 span {
     font-size: 1.029vw;
     color: #fff;
+    text-shadow: 1px 3px 3px #05052d;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -102,16 +108,20 @@ a {
 }
 
 .footcar {
-    background-image: url('/Assets/Darsha_homepage_v41_assetsCop.png');
+    /* background-image: url('/Assets/Darsha_homepage_v41_assetsCop.png'); */
     /* height: 500vh; */
     width: 100%;
     /* background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer{
+    padding-top: 53px !important;
+    background-color: #b81a19;
+}
 
 .headicon {
-    width: 156px;
+    width: 203px;
     height: auto;
 }
 
@@ -212,6 +222,7 @@ a {
 .pnghead h4 {
     color: #b81a19;
     line-height: 27px;
+    text-shadow: none;
     text-transform: uppercase;
     margin-bottom: 12px;
 }
@@ -224,11 +235,22 @@ a {
 }
 
 .imghead {
+    background-image: url('/Assets/board.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 39px 0;
+}
+
+.imghead span{
+    text-shadow: none;
+}
+
+.detailhead{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
-    left: 93px;
-    top: 23px;
+    left: 113px;
 }
 
 
@@ -349,6 +371,11 @@ a {
 .sepbg span {
     color: #000;
     font-weight: bold;
+    text-shadow: none;
+}
+
+.sepbg a{
+    padding-bottom: 6px;
 }
 
 .study {
@@ -415,7 +442,7 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 6.838vw;
+    /* margin-top: 6.838vw; */
 }
 
 .btmside {
@@ -487,13 +514,19 @@ a {
     margin-bottom: 20px;
 }
 
-.card__body span{
+.card__body p{
     line-height: 26px;
 }
 
 /* mobile */
 
 @media (max-width:768px) {
+
+
+    .detailhead{
+        left: 0;
+        place-items: center;
+    }
 
     #overlay {
         display: block;
@@ -526,7 +559,7 @@ a {
         flex-direction: column;
     }
 
-    .card__body span{
+    .card__body p{
         line-height: 23px;
         font-size: 13px;
     }
@@ -576,7 +609,7 @@ a {
     }
 
     .headicon {
-        width: 103px;
+        width: 133px;
     }
 
     .option {
@@ -610,7 +643,7 @@ a {
     }
 
     .fa {
-        font-size: 23px;
+        font-size: 23px !important;
     }
 
     .icon {
@@ -635,7 +668,7 @@ a {
     }
 
     p {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     span {
@@ -677,7 +710,7 @@ a {
 
     .herosection {
         padding: 0 13px;
-        margin-top: 70px;
+        margin-top: 33px;
     }
 
     .herobtn {
@@ -733,18 +766,9 @@ a {
     .detailpng {
         width: 43px;
     }
-
-    .imghead {
-        grid-template-columns: repeat(2, 1fr);
-        /* display: flex; */
-        flex-wrap: wrap;
-        gap: 19px;
-        /* column-gap: 0; */
-        position: relative;
-        left: 0;
-        place-items: flex-start;
-        /* padding-top: 68px; */
-        padding-left: 58px;
+    
+    .arc{
+        flex-direction: column;
     }
 
     /* .sharda{
@@ -763,7 +787,9 @@ a {
     }
 
     .servicetxt {
+
         margin-top: 36px;
+        margin-bottom: 24px;
     }
 
     .study {
