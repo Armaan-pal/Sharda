@@ -16,7 +16,7 @@ class CustomHeader extends HTMLElement {
             
             </div>
             <div class="option" id="myLinks">
-                <a href="#">
+                <a href="https://darshathoughtways.com/pages/about.html">
                     <span>About</span>
                 </a>
 
@@ -45,8 +45,8 @@ class CustomHeader extends HTMLElement {
 class CustomSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-         <footer class="page-width">
-                <div class="footstyle">
+         <footer class="">
+                <div class="footstyle page-width">
 
                     <div class="contact">
                         <div class="callmail">

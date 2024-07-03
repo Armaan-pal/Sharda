@@ -292,7 +292,6 @@ footer{
 }
 
 .redbg {
-    /* background-image: url('/Assets/separator\ 1.png'); */
     background: #b81a19;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -442,7 +441,6 @@ footer{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* margin-top: 6.838vw; */
 }
 
 .btmside {
@@ -466,7 +464,6 @@ footer{
 .explorefooter,
 .letterfoot {
     padding-bottom: 1vw;
-    /* padding-top: 5vw; */
 }
 
 .callmail {

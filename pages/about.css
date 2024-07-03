@@ -1,0 +1,175 @@
+p {
+    font-size: 12px;
+}
+
+#accellerate {
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.callender{
+    position: absolute;
+    width: 300px;
+    top: 173px;
+    left: 53px;
+}
+
+.color{
+    position: absolute;
+    width: 263px;
+    top: 0;
+    right: 53px;
+}
+
+.sticky{
+    position: absolute;
+    right: 115px;
+    bottom: -39px;
+    width: 172px;
+}
+
+.whoweare h3 {
+    text-align: center;
+}
+
+.whoweare h2 {
+    margin-bottom: 30px;
+}
+
+.photoframe {
+    display: flex;
+    margin: 60px 0;
+    position: relative;
+    gap: 29px;
+}
+
+.minion {
+    position: absolute;
+    width: 149px;
+    top: -49px;
+    left: 33px;
+}
+
+.firstframe {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.approach{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.apptext {
+    text-align: left;
+    width: 65%;
+}
+
+.apptext p,
+.apptext h2, 
+.foundertext h2,
+.foundertext p{
+    text-align: left;
+}
+
+.zenx {
+    width: 35%;
+}
+
+.attili{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    align-items: center;
+    gap: 29px;
+    background-image: url('/Assets/about/about\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 762px 283px;
+    background-position: bottom;
+}
+
+.profilepic{
+    width: 30%;
+}
+
+.foundertext{
+    width: 70%;
+}
+
+
+/* red head */
+
+.sepmrginto{
+margin-top: 0;
+}
+
+.sepmrginto span{
+display: flex;
+}
+
+.collabbg{
+    position: relative;
+}
+
+.hpheight{
+    background-image: url('/Assets/phone\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 709px 403px;
+}
+
+.greenplant, .pass, .pin, .card{
+    position: absolute;
+}
+
+.greenplant{
+    width: 241px;
+    top: 43px;
+    left: 121px;
+    z-index: 3;
+}
+
+.glass{
+    position: absolute;
+    bottom: -56px;
+    width: 189px;
+    right: 419px;
+}
+
+.pass{
+    /* bottom: 0; */
+    bottom: -8px;
+    left: 43px;
+    width: 435px;
+}
+
+.pin{
+    width: 213px;
+    top: 21px;
+    right: 130px;
+}
+
+.card{
+    bottom: 31px;
+    right: 67px;
+    width: 263px;
+
+}
+/* brand collab */
+
+.hpheight{
+    position: relative;
+    z-index: 2;
+    height: 600px;
+    width: auto;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+    padding-top: 0;
+}
+
