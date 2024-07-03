@@ -75,33 +75,33 @@ a {
 .page-width {
     max-width: 1360px;
     margin: 0 auto;
-    padding: 0 200px;
+    padding: 0 153px;
 }
-    
+
 .page-width-menu {
     max-width: 1360px;
     margin: 0 auto;
-    padding: 0 200px;
+    padding: 0 153px;
     padding-left: 100px;
 }
 
 /* background and header */
 
-.icon{
-    display:none;
+.icon {
+    display: none;
 }
 
 .sharda {
-    background-image: url('/Assets/Darsha_homepage_v41_assets\ Copy.png');
+    background-image: url('/Assets/website_bg\ \(1\).png');
     /* height: 500vh; */
     width: 100%;
     /* background-position: center;*/
     background-repeat: no-repeat;
-    padding-bottom: 5vw;
+    /* padding-bottom: 5vw; */
     background-size: cover;
 }
 
-.footcar{
+.footcar {
     background-image: url('/Assets/Darsha_homepage_v41_assetsCop.png');
     /* height: 500vh; */
     width: 100%;
@@ -165,8 +165,24 @@ a {
 
 .herobtn {
     background: #05052d;
-    width: fit-content;
+    width: auto;
     padding: 16px 23px;
+}
+
+.arc{
+    display: flex;
+    gap: 53px;
+    margin-top: 43px;
+}
+
+.card-left{
+    margin-top: 113px;
+    transform: rotate(-23deg);
+}
+
+.card-right{
+    margin-top: 113px;
+    transform: rotate(23deg);
 }
 
 .herosection {
@@ -241,8 +257,24 @@ a {
     margin-bottom: 1.991vw;
 }
 
+.copyright{
+    background-color: #05052d;
+}
+
+.copyright span {
+    color: #fff;
+    padding:13px 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
 .redbg {
-    background-image: url('/Assets/separator\ 1.png');
+    /* background-image: url('/Assets/separator\ 1.png'); */
+    background: #b81a19;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 80px;
     margin-top: 14.882vw;
     background-size: contain;
 }
@@ -272,9 +304,25 @@ a {
     padding: 59px 0;
 }
 
+/* blog */
+
+.blogs{
+    display: flex;
+    gap: 29px;
+}
+
+.mainblog{
+    width: 60%;
+}
+
+.rightblog{
+    width: 35%;
+}
+
 .seprator {
     background-image: url('/Assets/separator\ 2.png');
     display: flex;
+    margin-top: 80px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -319,16 +367,16 @@ a {
     text-align: center;
 }
 
-.upmargin{
+.upmargin {
     margin-top: 4.338vw;
 }
 
-.cardtext{
+.cardtext {
     background: #ffbf27;
     padding: 9px;
 }
 
-.hpfswipe{
+.hpfswipe {
     width: 31.103vw;
     margin-left: 36.735vw;
     height: 493px;
@@ -339,18 +387,18 @@ a {
     width: 119px;
 }
 
-.mailbtm{
+.mailbtm {
     width: 12px;
 }
 
-.conpic{
+.conpic {
     display: flex;
     gap: 12px;
     justify-content: center;
     align-items: center;
 }
 
-.footbot{
+.footbot {
     width: 139px;
     height: 126px;
 }
@@ -363,37 +411,38 @@ a {
     gap: 39px;
 }
 
-.footstyle{
+.footstyle {
     display: flex;
     width: 100%;
     justify-content: space-between;
     margin-top: 6.838vw;
 }
 
-.btmside{
+.btmside {
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
 
-.btmside span{
+.btmside span {
     text-align: left;
     display: block;
 }
 
-.btmoption{
+.btmoption {
     display: flex;
     align-items: baseline;
     gap: 19px;
     justify-content: flex-start
 }
 
-.explorefooter, .letterfoot {
+.explorefooter,
+.letterfoot {
     padding-bottom: 1vw;
     /* padding-top: 5vw; */
 }
 
-.callmail{
+.callmail {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -401,16 +450,16 @@ a {
     gap: 13px;
 }
 
-.callmail a{
+.callmail a {
     color: #fff;
 }
 
-.conlore{
+.conlore {
     display: flex;
     gap: 69px;
 }
 
-.option a{
+.option a {
     width: 106px;
     height: 106px;
     text-align: center;
@@ -420,158 +469,121 @@ a {
     border-radius: 50%;
 }
 
-#overlay{
+#overlay {
     display: none;
 }
 
-
-
-.option a:hover{
+.option a:hover {
     background-color: #b81a19;
 }
 
 /* section 5 */
 
+.card__body h4 {
+  margin: 20px 0;
+}
 
+.card__body{
+    margin-bottom: 20px;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin-block: 2rem;
-    gap: 2rem;
-  }
-  
-  img {
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
-  }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
-    overflow: hidden;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-    /* border-radius: 1em; */
-    background-color: #05052d;
-  
-  }
-  
-  .card__body {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
-  
-  .tag {
-    align-self: flex-start;
-    padding: .25em .75em;
-    border-radius: 1em;
-    font-size: .75rem;
-  }
-  
-  .tag + .tag {
-    margin-left: .5em;
-  }
-  
-  .tag-blue {
-    background: #56CCF2;
-    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
-    color: #fafafa;
-  }
-  
-  .tag-brown {
-    background: #D1913C;
-    background: linear-gradient(to bottom, #FFD194, #D1913C);
-    color: #fafafa;
-  }
-  
-  .tag-red {
-    background: #cb2d3e;
-    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-    color: #fafafa;
-  }
-  
-  .card__body h4 {
-    font-size: 1.5rem;
-    text-transform: capitalize;
-  }
-  
-  .card__footer {
-    display: flex;
-    padding: 1rem;
-    margin-top: auto;
-  }
-  
-  .user {
-    display: flex;
-    gap: .5rem;
-  }
-  
-  .user__image {
-    border-radius: 50%;
-  }
-  
-  .user__info > small {
-    color: #666;
-  }
-
-
+.card__body span{
+    line-height: 26px;
+}
 
 /* mobile */
 
 @media (max-width:768px) {
 
-    #overlay{
+    #overlay {
         display: block;
     }
+
+    .sharda {
+        background-image: url('/Assets/website_bg\ \(1\).png');
+        /* padding-bottom: 53px; */
+    }
+    .footcar{
+        background-image: none;
+    }
+
+    .copyright span {
+    padding: 6px 0;
+    }
     
-.sharda {
-    background-image: url('/Assets//Darsha_homepage_Mobile\ bg\ -\ Copy.png');
-    padding-bottom: 53px;
-}
+    .blogs{
+        flex-direction: column;
+    }
 
-.footcar{
-    background-image: url('/Assets/Darsha_homepage_Mobile\ bg\ -\ Copy\ \(2\).png');
-    padding-top: 283px;
-}
+    .mainblog{
+        width: 100%;
+    }
+    
+    .rightblog{
+        width: 100%;
+        gap: 29px;
+        display: flex;
+        flex-direction: column;
+    }
 
-.hpfswipe{
-    position: relative;
-    bottom: 99px;
-}
+    .card__body span{
+        line-height: 23px;
+        font-size: 13px;
+    }
+
+    .card__body h4 {
+        margin: 13px 0;
+        font-size: 19px;
+    }
+    
+
+    /* .footcar {
+        background-image: url('/Assets/Darsha_homepage_Mobile\ bg\ -\ Copy\ \(2\).png');
+        padding-top: 283px;
+    } */
+
+    .card-left{
+        margin-top: 0;
+        transform: unset;
+    }
+    
+    .card-right{
+        margin-top: 0;
+        transform: unset;
+    }
+
+    .hpfswipe {
+        position: relative;
+        /* bottom: 99px; */
+    }
 
     #overlay {
         position: fixed;
         display: none;
-        width: 100%; 
+        width: 100%;
         height: 100%;
         top: 69px;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         z-index: 2;
-        cursor: pointer; 
-      }
+        cursor: pointer;
+    }
 
-      .option{
+    .option {
         z-index: 3;
-      }
+    }
 
     .headicon {
         width: 103px;
-    }    
+    }
 
-    .option{
+    .option {
         display: none;
         top: 69px;
         left: 0;
-        
+
         flex-direction: column;
         padding: 19px;
         position: absolute;
@@ -586,27 +598,30 @@ a {
         font-weight: 600;
     }
 
-    .option a{
-        height:33px
+    .option a {
+        height: 33px
     }
 
-    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+    .fa-navicon:before,
+    .fa-reorder:before,
+    .fa-bars:before {
         background-color: transparent;
         color: #fff;
     }
 
-    .fa{
+    .fa {
         font-size: 23px;
     }
-    .icon{
-        display:block
+
+    .icon {
+        display: block
     }
 
     h1 {
         font-size: 23px;
     }
 
-    h2{
+    h2 {
         font-size: 19px;
     }
 
@@ -619,7 +634,7 @@ a {
         font-size: 11px;
     }
 
-    p{
+    p {
         font-size: 9px;
     }
 
@@ -631,7 +646,7 @@ a {
         padding-left: unset;
     }
 
-    .detailimgtxt{
+    .detailimgtxt {
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -641,14 +656,14 @@ a {
 
     .ourservice {
         padding: 0 19px;
-        margin-top: 193px;
+        /* margin-top: 193px; */
     }
 
     .servicebtn span::after {
         width: 39px;
     }
 
-    .seprator{
+    .seprator {
         padding: 23px 0;
         /* margin-top: 53px; */
     }
@@ -660,7 +675,7 @@ a {
         padding: 0 24px;
     }
 
-    .herosection{
+    .herosection {
         padding: 0 13px;
         margin-top: 70px;
     }
@@ -677,9 +692,10 @@ a {
         line-height: normal;
     }
 
-    .cardtext p{
+    .cardtext p {
         font-size: 12px;
     }
+
     .herotitle h3 {
         font-weight: normal;
         text-align: center;
@@ -705,6 +721,7 @@ a {
 
     .redbg {
         margin-top: 79px;
+        padding: 180px 0;
     }
 
     .pnghead h4 {
@@ -717,7 +734,7 @@ a {
         width: 43px;
     }
 
-    .imghead{
+    .imghead {
         grid-template-columns: repeat(2, 1fr);
         /* display: flex; */
         flex-wrap: wrap;
@@ -726,7 +743,7 @@ a {
         position: relative;
         left: 0;
         place-items: flex-start;
-        padding-top: 68px;
+        /* padding-top: 68px; */
         padding-left: 58px;
     }
 
@@ -740,7 +757,7 @@ a {
         margin-bottom: 13px;
     }
 
-    .servicetxt h2{
+    .servicetxt h2 {
         font-size: 19px;
         margin-bottom: 9px;
     }
@@ -763,7 +780,7 @@ a {
         font-size: 12px;
     }
 
-    .conlore{
+    .conlore {
         display: flex;
         justify-content: space-between;
         gap: 13px;
@@ -774,7 +791,7 @@ a {
         flex-direction: row-reverse;
     }
 
-    .hpfswipe{
+    .hpfswipe {
         height: auto;
         width: auto;
         margin: unset;
@@ -782,25 +799,25 @@ a {
         margin-top: 29px;
     }
 
-    .swiper-slide{
+    .swiper-slide {
         display: flex !important;
-    justify-content: center;
+        justify-content: center;
     }
 
-    .study .swiper-slide{
+    .study .swiper-slide {
         flex-direction: column;
     }
-    
+
     .cardtext {
         background: #b81a19;
         padding: 9px;
     }
 
-    footer{
+    footer {
         background: #b81a19;
     }
 
-    footer span{
+    footer span {
         font-size: 9px;
     }
 
@@ -809,14 +826,15 @@ a {
         height: 93px;
     }
 
-    footer a{
+    footer a {
         color: #fff;
     }
 
     .conpic {
         justify-content: flex-start;
     }
-    .footstyle{
+
+    .footstyle {
         flex-direction: column-reverse;
         margin: unset;
         padding: 24px 12px 0 12px;
@@ -844,9 +862,9 @@ a {
 
     .upmargin {
         margin-top: 1.338vw;
-      }
+    }
 
-    .seprator{
+    .seprator {
         padding: 63px 0;
     }
 }
@@ -872,7 +890,7 @@ a {
 
     .upmargin {
         margin-top: 1.338vw;
-      }
+    }
 
     .imghead {
         padding: 0 !important;
@@ -882,7 +900,7 @@ a {
 
 @media screen and (min-width: 1750px) {
 
-    .hpfswipe{
+    .hpfswipe {
         height: 606px !important;
         padding-top: 21.279vw !important;
     }
@@ -895,7 +913,7 @@ a {
         margin-bottom: 6.897vw;
     }
 
-    
+
     .hpfswipe {
         height: 639px !important;
         padding-top: 19.279vw !important;
@@ -904,7 +922,7 @@ a {
 
     .upmargin {
         margin-top: 3.338vw;
-      }
+    }
 
 
     .imghead {
@@ -912,13 +930,13 @@ a {
     }
 
 
-@media screen and (min-width: 1750px) {
+    @media screen and (min-width: 1750px) {
 
-    .hpfswipe{
-        height: 923px;
-        padding-top: 31.279vw;
+        .hpfswipe {
+            height: 923px;
+            padding-top: 31.279vw;
+        }
     }
-}
 }
 
 
