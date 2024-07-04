@@ -173,3 +173,88 @@ display: flex;
     padding-top: 0;
 }
 
+
+@media (max-width:768px) {
+    .sticky{
+        display: none;
+    }
+}
+
+.color {
+    width: 69px;
+    top: 0;
+    right: 1px;
+}
+
+.callender {
+    width: 83px;
+    top: 146px;
+    left: 19px;
+}
+
+.whoweare{
+    text-align: left;
+    margin-top: 13px;
+}
+
+.photoframe {
+    flex-direction: column;
+    gap: 0;
+}
+
+.minion {
+    position: absolute;
+    width: 86px;
+    top: -66px;
+    left: 43px;
+}
+
+
+.approach{
+    flex-direction: column;
+}
+
+.apptext, .zenx, .foundertext, .profilepic{
+    width: 100%;
+}
+
+.attili{
+    flex-direction: column-reverse;
+}
+
+.sepbg a{
+    padding: 0;
+}
+
+.pass{
+    display: none;
+}
+
+.hpheight {
+    gap: 13px;
+    height: 366px;
+    background-size: 309px 169px;
+}
+
+.servimgb {
+    width: 69px;
+}
+
+.greenplant {
+    width: 143px;
+    top: 0;
+    left: 26px;
+    z-index: 3;
+}
+
+.pin {
+    width: 155px;
+    top: 29px;
+    right: 26px;
+}
+
+.card {
+    bottom: 0px;
+    right: 182px;
+    width: 99px;
+}

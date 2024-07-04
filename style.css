@@ -899,6 +899,7 @@ footer{
 }
 
 @media screen and (min-width: 1650px) and (max-width: 1849px) {
+  
     .servicetxt {
         margin-top: 10.8vw;
         margin-bottom: 5.897vw;
@@ -931,6 +932,11 @@ footer{
 }
 
 @media screen and (min-width: 1850px) and (max-width: 2049px) {
+
+    .detailhead {
+        top:16px
+    }
+    
     .servicetxt {
         margin-top: 10.6vw;
         margin-bottom: 6.897vw;
