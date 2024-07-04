@@ -589,6 +589,10 @@ footer{
     text-align: left;
 }
 
+.homePageFour{
+    background-image: url('/Assets/website_bg\ \(1\).png');
+}
+
 /* mobile */
 
 @media (max-width:768px) {
@@ -892,7 +896,7 @@ footer{
         height: auto;
         width: auto;
         margin: unset;
-        padding: 0 24px;
+        padding: 0 115px;
         margin-top: 29px;
     }
 
@@ -943,7 +947,20 @@ footer{
         flex-direction: column;
         gap: 19px;
     }
+
+    .hpfcarousel {
+        position: relative;
+        padding-bottom: 33px;
+        padding-top: 33px;
+    }
+
+    .phone{
+        width: 169px;
+        top: 19%;
+        left: 27%;
+    }
 }
+
 
 @media screen and (min-width: 1450px) and (max-width: 1649px) {
     .servicetxt {
@@ -1004,7 +1021,6 @@ footer{
         padding: 0 !important;
     }
 }
-
 
 
 @media screen and (min-width: 1850px) and (max-width: 2049px) {

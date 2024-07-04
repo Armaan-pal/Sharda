@@ -20,7 +20,7 @@ class CustomHeader extends HTMLElement {
                     <span>About</span>
                 </a>
 
-                <a href="/pages/services.html">
+                <a href="https://darshathoughtways.com/index-four.html">
                     <span>Services</span>
                 </a>
 
