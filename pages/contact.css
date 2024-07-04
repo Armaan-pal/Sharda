@@ -55,6 +55,36 @@ input[type=submit]:hover {
   color: white;
 }
 
+
+.fullcontact{
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+    align-items: baseline;
+}
+
+.question{
+  width: 40%;
+}
+
+.container {
+  width: 60%;
+  padding: 80px 0;
+}
+
+.fullcontact .mailbtm {
+  width: 23px;
+}
+
+.foname{
+  display: flex;
+  gap: 16px;
+}
+
+.question h2{
+  text-align: left;
+}
+
 @media (max-width:768px) {
 
   .option {

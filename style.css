@@ -31,7 +31,8 @@ h1 {
     font-size: 4.26vw;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #7d7070;
+    ;
 }
 
 h2 {
@@ -39,14 +40,15 @@ h2 {
     margin-bottom: 20px;
     color: #fff;
     text-align: center;
+    position: relative;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #05052d;
 }
 
 h3 {
     font-size: 1.765vw;
     margin-bottom: 20px;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #05052d;
     color: #fff;
     font-family: "Montserrat", sans-serif;
 }
@@ -56,27 +58,78 @@ h4, label {
     margin-bottom: 20px;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #05052d;
 }
 
 p {
     font-size: 1.324vw;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #05052d;
     text-align: center;
 }
 
 span {
     font-size: 1.029vw;
     color: #fff;
-    text-shadow: 1px 3px 3px #05052d;
+    text-shadow: 1px 3px 13px #05052d;
     font-family: "Montserrat", sans-serif;
 }
 
 a {
     text-decoration: none;
 }
+
+h2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #b81a19;
+    transition: width 0.3s ease, right 0.3s ease;
+}
+
+h2:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.btmoption a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btmoption a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    left: 0;
+    background: #fff;
+    transition: width 0.3s ease;
+}
+
+.btmoption a:hover::after {
+    width: 100%;
+}
+
+
+.bloghead h2{
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+.headmain{
+    display: flex;
+    justify-content: center;
+}
+
 
 .page-width {
     max-width: 1360px;
@@ -160,7 +213,7 @@ footer{
 .herotitle {
     display: flex;
     justify-content: center;
-    padding-left: 73px;
+    /* padding-left: 73px; */
     flex-direction: column;
     align-items: center;
     line-height: 38px;
@@ -171,6 +224,33 @@ footer{
     text-align: center;
     width: 43.162vw;
     margin-bottom: 36px;
+}
+
+/* .footcar .hpfswipe{
+    background-image: url('/Assets/phone\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 709px 353px;
+} */
+
+.hpfcarousel{
+    position: relative;
+    padding-bottom: 106px;
+}
+
+.hpfswipe {
+    width: 46.103vw;
+    margin-left: 27.735vw;
+    height: 493px;
+    padding-top: 16.279vw;
+}
+
+
+.phone{
+    width: 809px;
+    position: absolute;
+    top: 17%;
+    left: 19%;
 }
 
 .herobtn {
@@ -402,13 +482,6 @@ footer{
     padding: 9px;
 }
 
-.hpfswipe {
-    width: 31.103vw;
-    margin-left: 36.735vw;
-    height: 493px;
-    padding-top: 16.279vw;
-}
-
 .servimgb {
     width: 119px;
 }
@@ -513,6 +586,7 @@ footer{
 
 .card__body p{
     line-height: 26px;
+    text-align: left;
 }
 
 /* mobile */
@@ -822,6 +896,7 @@ footer{
         margin-top: 29px;
     }
 
+
     .swiper-slide {
         display: flex !important;
         justify-content: center;
@@ -877,9 +952,9 @@ footer{
 
 
     .hpfswipe {
-        width: 31.103vw;
+        /* width: 31.103vw;
         margin-left: 36.735vw;
-        height: 549px;
+        height: 549px; */
         padding-top: 21.279vw;
     }
 
@@ -905,10 +980,19 @@ footer{
         margin-bottom: 5.897vw;
     }
 
+    .phone{
+        width: 809px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    }
+
     .hpfswipe {
-        width: 31.103vw;
+        /* width: 31.103vw;
         margin-left: 36.735vw;
-        height: 576px;
+        height: 576px; */
+        margin-left: 31.735vw;
+        width: 38.103vw;
         padding-top: 20.279vw;
     }
 
@@ -922,14 +1006,6 @@ footer{
 }
 
 
-@media screen and (min-width: 1750px) {
-
-    .hpfswipe {
-        height: 606px !important;
-        padding-top: 21.279vw !important;
-    }
-
-}
 
 @media screen and (min-width: 1850px) and (max-width: 2049px) {
 
@@ -942,17 +1018,22 @@ footer{
         margin-bottom: 6.897vw;
     }
 
+    .phone{
+    width: 873px;
+    position: absolute;
+    top: 27%;
+    left: 32%;
+    }
 
     .hpfswipe {
-        height: 639px !important;
-        padding-top: 19.279vw !important;
+        width: 36.103vw;
+        padding-top: 16.279vw !important;
         margin-left: 36.735vw !important;
     }
 
     .upmargin {
         margin-top: 3.338vw;
     }
-
 
     .imghead {
         padding: 0 !important;
@@ -961,10 +1042,7 @@ footer{
 
     @media screen and (min-width: 1750px) {
 
-        .hpfswipe {
-            height: 923px;
-            padding-top: 31.279vw;
-        }
+       
     }
 }
 

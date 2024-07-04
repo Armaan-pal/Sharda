@@ -74,21 +74,19 @@ class CustomSection extends HTMLElement {
                             <h3>EXPLORE</h3>
                             <div class="btmoption">
                                 <div class="btmside">
-                                    <span>About</span>
-                                    <span>Meet Our Team</span>
-                                    <span>Case Study</span>
-                                    <span>Latest News</span>
-                                    <span>Contact</span>
+                                    <span><a href="https://darshathoughtways.com/pages/about.html"></a>About</a></span>
+                                    <span><a href="#">Meet Our Team</a></span>
+                                    <span><a href="#">Case Study</a></span>
+                                    <span><a href="#">Latest News</a></span>
+                                    <span><a href="#">Contact</a></span>
                                 </div>
                                 <div class="btmside">
-                                    <span>Support</span>
-                                    <span>Tearms of Use</span>
-                                    <span>Privacy Policy</span>
-                                    <span>Help</span>
+                                    <span><a href="#">Support</a></span>
+                                    <span><a href="#">Tearms of Use</a></span>
+                                    <span><a href="#">Privacy Policy</a></span>
+                                    <span><a href="#">Help</a></span>
                                 </div>
                             </div>
-
-
                         </div>
                         <div class="letterfoot">
                             <h3>NEWSLETTER</h3>

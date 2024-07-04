@@ -1,5 +1,5 @@
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #accellerate {
@@ -34,6 +34,10 @@ p {
 
 .whoweare h2 {
     margin-bottom: 30px;
+}
+
+.whoweare p {
+    font-size: 16px !important;
 }
 
 .photoframe {
@@ -178,7 +182,7 @@ display: flex;
     .sticky{
         display: none;
     }
-}
+
 
 .color {
     width: 69px;
@@ -257,4 +261,5 @@ display: flex;
     bottom: 0px;
     right: 182px;
     width: 99px;
+}
 }
